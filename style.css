@@ -1,0 +1,338 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.nav {
+    width: 100%;
+    height: 130.29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+.logo-container{
+    border-radius: 100px;
+    width: 70%;
+    height: 50px;
+}
+.menus-container{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    
+}
+.experience-my{
+    color:red;
+    margin-top: 50px;
+    text-align:center;
+}
+#button{
+    position: relative;
+    width: 300px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid red;
+    background-color: aqua;
+    overflow: hidden;
+     cursor:pointer;
+    font-weight: 1000px ;
+    font-style: bold;
+}
+#form{
+    position: relative;
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid black
+    background-color: transparent;
+   
+}
+#input{
+    position: relative;
+    width: 100px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    font-weight: bold;
+    border: 2px solid black
+    background-color: transparent;
+}
+.item{
+    padding:15px;
+}
+
+.dropdown{
+    min-width: 15em;
+    position: relative;
+    margin: 2em;
+}
+.dropdown *{
+    box-sizing: border-box;
+}
+    
+.select{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0.5em;
+    padding: 1em;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-style: italic;
+}
+
+.caret{
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #fff;
+    transition: 0.3s;
+
+}
+.caret-rotate{
+    transform: rotate(180deg);
+
+}
+.menu{
+    list-style: none;
+    padding: 0.2em, 0.5em;
+    background: #323741;
+    border: 1px #363a43 solid;
+    box-shadow: 0 0.5em 1em rgba(0, 0, 0, 0.2);
+    border-radius:0.5em;
+    color:red;
+    position: absolute;
+    top: 3em;
+    left: 50%;
+    width: 100%;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    transition: 0.2x;
+    z-index: 1;
+}
+.menu li{
+    padding: 07em 0.5em;
+    margin: 0.3em 0;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+.selected{
+    color: white;
+    text-align: center;
+
+}
+.banner-container{
+    width: 100%;
+    height: 50vh;
+    background-image: url(./image/R\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top:-10px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin:auto;
+    text-align:center;
+    background-repeat:no-repeat;
+}
+.banner-info h3{
+    font-weight: 4000;
+    margin: 0 0 20px;
+    line-height: 1.2;
+    font-size: 40px;
+    color: white;
+    font-style: oblique;
+
+}
+
+.title{
+    font-size:50px;
+    font-style: oblique;
+    color:white;
+    margin: center;
+    align-content: center;
+    align-items:center;
+   
+
+}
+.Digital{
+    font-style: oblique;
+    color:red
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+nav img {
+    margin-right: 10px;
+}
+
+/* Style the banner */
+.banner-container {
+    background-color: #ddd;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;}
+
+    .banner-info{
+        position: absolute;
+        top: 0;
+        margin-top:9%;
+        margin: center;
+    }
+.banner-info h1 {
+    margin-bottom: 10px;
+    line-height:150%;
+    font-size: 70px;
+    font-weight: 1000;
+    text-transform:inherit;
+}
+.Red-me{
+    margin-bottom: 100px
+    margin-top: -500px;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 18px;
+    color: blue;
+    text-transform: capitalize;
+    margin-top: 200px;
+  }
+  .banner-container button{
+
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgb(82, 74, 61);
+    padding: 9px 15px;
+    background-color: transparent;
+    border-radius: 7px;
+    border: 1px solid rgba(194, 132, 40, 1);
+    cursor: pointer;
+  }
+  .Experience-section h2{
+    margin-top: 100px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    text-transform:calc();
+  }
+  
+  
+  
+/* Style the trip sections */
+.trip-section {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px; /* Add margin to create space between trip sections */
+}
+
+.trip-section .cover {
+    display: flex;
+}
+
+.trip-section .box {
+    flex: 1;
+    max-width: 50%; /* Ensure the image takes up at most 50% of the section */
+}
+
+.trip-section .box img {
+    width: 100%; /* Make the image fill its container */
+    height: auto;
+}
+
+.trip-section .paragraph {
+    flex: 1;
+    padding-left: 20px;
+}
+
+
+/* Add more styling as needed */
+
+ */
+
+
+ body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background-image: url('path/to/your/banner-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    justify-content:center;
+    margin:auto;
+    margin-bottom: -850px;
+    margin-left: -200px;
+    }
+.box-img{
+    width: 400px;
+    height: 600px;
+    
+}
+.content{
+    display: flex;
+    padding: 30px;
+    text-align:justify;
+    box-shadow: 4px 8px 16px gray;
+    background-color: white;
+    
+    margin-left:200px;
+    margin-right: 300px;
+    margin: center;
+    align-content: center;
+    align-items:center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.paragraph{
+    width:50%
+    
+}
